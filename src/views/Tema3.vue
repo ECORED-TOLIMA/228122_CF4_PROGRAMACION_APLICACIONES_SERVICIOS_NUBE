@@ -330,7 +330,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.cajon.color-secundario.p-4
+        .cajon.color-secundario.p-4
           p.mb-0 Java también proporciona clases envolventes para representar los tipos primitivos como objetos. Por ejemplo, Integer corresponde al tipo primitivo int, Double a double y Boolean a boolean.
 
     .titulo.mb-4(data-aos="fade-left")

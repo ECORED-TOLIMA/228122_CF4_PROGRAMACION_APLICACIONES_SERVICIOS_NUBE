@@ -9,7 +9,15 @@
   </template>
 
 <script>
-import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import ActividadBase from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
+import ActividadPreguntaHtml from '@/components/ActividadPreguntaHtml.vue'
+
+const Actividad = {
+  extends: ActividadBase,
+  components: {
+    ActividadPregunta: ActividadPreguntaHtml,
+  },
+}
 export default {
   name: 'ActividadDidactica',
   components: {
@@ -101,7 +109,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Bien! Visual Studio Code es un editor de código fuente gratuito y muy utilizado en el desarrollo de software.',
+            '¡Bien! Visual Studio Code es un editor de código fuente gratuito y muy utilizado en el desarrollo de <em>software</em>.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -378,9 +386,10 @@ export default {
             'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Ha superado la actividad y demuestra sólidos conocimientos sobre programación, javascript como programa principal y fundamental.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Se recomienda revisar nuevamente el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
