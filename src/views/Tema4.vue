@@ -13,7 +13,7 @@
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img1.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img1.svg' alt="")
         p.text-center #[b Arreglos (arrays)]
         p.text-center.mb-3 Permiten almacenar múltiples valores en una sola variable.
         p.text-center.mb-0 Ejemplo:
@@ -22,9 +22,9 @@
       .col-lg.col-md-6.tarjeta--tabla2.p-4(data-aos="flip-right")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img2.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img2.svg' alt="")
         p.text-center #[b Objetos (objects)]
-        p.text-center.mb-3 Permiten almacenar información en pares clave–valor.
+        p.text-center.mb-3 Permiten almacenar información en pares clave-valor.
         p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
               p.text-white.mb-1 let persona = {
@@ -34,7 +34,7 @@
       .col-lg.col-md-6.tarjeta--tabla3.p-4(data-aos="flip-left")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img3.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img3.svg' alt="")
         p.text-center #[b Pilas (stacks)]
         p.text-center.mb-3 Siguen el principio LIFO (último en entrar, primero en salir).
         p.text-center.mb-0 Ejemplo:
@@ -45,7 +45,7 @@
       .col-lg.col-md-6.tarjeta--tabla4.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img4.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img4.svg' alt="")
         p.text-center #[b Colas (queues)]
         p.text-center.mb-3 Siguen el principio FIFO (primero en entrar, primero en salir).
         p.text-center.mb-0 Ejemplo:
@@ -100,7 +100,7 @@
 
     .row.justify-content-center
       .col-lg-10.col-12
-        p.mb-0 Las estructuras de datos y algoritmos permiten organizar mejor la información, optimizar el rendimiento de los programas y resolver problemas de manera eficiente, comprender las estructuras de datos y los algoritmos es esencial para desarrollar #[i software] eficiente y de calidad en JavaScript.
+        p.mb-0 Las estructuras de datos y algoritmos permiten organizar mejor la información, optimizar el rendimiento de los programas y resolver problemas de manera eficiente; comprender las estructuras de datos y los algoritmos es esencial para desarrollar #[i software] eficiente y de calidad en JavaScript.
 
     separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -120,7 +120,7 @@
               p.mb-0 Un aspecto importante a considerar es que los arreglos pueden ser de cualquier tipo, incluyendo datos primitivos.
             .col-lg-4.col-8.mb-3.mb-lg-0.order-1.order-lg-2
               figure
-                img(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img400.m-auto
+                img(src="@/assets/curso/temas/tema4/img5.png", alt="").img400.m-auto
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10.text-center
         .titulo3.p-4(data-aos="fade-left")
@@ -172,13 +172,13 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema4/img6.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema4/img6.png", alt="").img400.m-auto
       .col-lg-5
         .titulo.mb-3(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/icon.svg', alt='')
           h5 Matrices
 
-        p En JavaScript, las matrices son una estructura de datos bidimensional que se implementan como un arreglo de arreglos. Esto permite organizar la información en forma de filas y columnas, similar a una tabla.
+        p En JavaScript, una matriz es una estructura de datos bidimensional que puede representarse mediante un arreglo cuyos elementos son otros arreglos. Esta estructura permite organizar la información en filas y columnas, de manera similar a una tabla.
         p.mb-0 Ejemplo:
         .row
           .col-lg-5
@@ -193,7 +193,7 @@
     .row.justify-content-center.BG02.p-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema4/img7.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema4/img7.png", alt="").img400.m-auto
       .col-lg-8
         p.mb-5
         SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
@@ -247,40 +247,40 @@
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img8.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img8.svg' alt="")
         p.text-center Listas de usuarios.
       .col-lg.col-md-6.tarjeta--tabla3.p-4(data-aos="flip-right")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img9.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img9.svg' alt="")
         p.text-center Sistemas de reportes.
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-left")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img10.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img10.svg' alt="")
         p.text-center Procesamiento de datos.
       .col-lg.col-md-6.tarjeta--tabla3.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img11.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img11.svg' alt="")
         p.text-center Bases de datos.
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-3
           .col-6
-            img(src='@/assets/curso/temas/tema4/img12.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img12.svg' alt="")
         p.text-center Aplicaciones #[i web] y móviles.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8
         p.mb-0 Un buen algoritmo de ordenamiento puede reducir significativamente el tiempo de ejecución de un programa.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Tipos de algoritmos de ordenamiento
     p.mb-4 Existen dos grandes categorías:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img13.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema4/img13.svg' alt='')
           .tarjeta.tarjeta-bg3
             .p-4
               p Algoritmos simples (O(n²))
@@ -288,13 +288,13 @@
       .col-lg-6
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema4/img14.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema4/img14.svg' alt='')
           .tarjeta.tarjeta-bg3
             .p-4
               p Algoritmos eficientes (O(n log n))
               p Usados en aplicaciones reales.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Bubble Sort (Ordenamiento burbuja)
     p Este algoritmo compara elementos adyacentes e intercambia sus posiciones si están en el orden incorrecto.
     .row.justify-content-center.align-items-center.mb-4
@@ -346,10 +346,10 @@
     .row.justify-content-center.align-items-center
       .col-lg-4.col-8.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema4/img19.png' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/img19.png' alt='')
       .col-lg-6
         .titulo.mb-5(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/icon.svg', alt='')
           h5 Método sort() en JavaScript
         p.mb-4 JavaScript incluye un método nativo para ordenar arreglos:
         .tarjeta--fondo4.p-2.mb-4
@@ -371,7 +371,7 @@
               p.mb-4 La importancia de los métodos de búsqueda radica en que permiten acceder de manera eficiente a la información, lo cual impacta directamente en el rendimiento y la experiencia del usuario. Por ejemplo, en una aplicación #[i web], cada vez que un usuario busca un producto, filtra resultados o accede a un registro específico, se está utilizando algún tipo de algoritmo o método de búsqueda.
             .col-lg-3.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/tema4/img20.svg' alt='AvatarTop')   
+                img(src='@/assets/curso/temas/tema4/img20.svg' alt='')   
         p.mb-4 Existen diferentes enfoques para realizar búsquedas, los cuales varían según la estructura de los datos y el contexto del problema. Entre los más comunes se encuentran:
         
         ol.lista-ol--cuadro
@@ -403,7 +403,7 @@
             .row.justify-content-center.align-items-center
               .col-lg-auto.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/temas/tema4/img22.svg', width='180', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema4/img22.svg', width='180', alt='')
               .col-lg-10
                 p.mb-0 En conclusión, los métodos de búsqueda en JavaScript constituyen una herramienta fundamental para el manejo de datos, ya que permiten localizar, filtrar y procesar información de manera eficiente, siendo una base clave en el desarrollo de aplicaciones modernas.
   

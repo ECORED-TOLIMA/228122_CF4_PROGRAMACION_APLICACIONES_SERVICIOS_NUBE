@@ -23,7 +23,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img2.svg', alt='')
           
         h5.text-center Estructuras secuenciales
         p Conjunto de instrucciones que se ejecutan de manera continua y ordenada, una después de la otra, siguiendo el flujo natural del programa.
@@ -31,7 +31,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img3.svg', alt='')
           
         h5.text-center Estructuras condicionales
         p.mb-0 Permiten evaluar condiciones y tomar decisiones, ejecutando diferentes acciones según se cumpla o no una condición (if, else).
@@ -39,7 +39,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema1/img4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img4.svg', alt='')
           
         h5.text-center Estructuras repetitivas
         p Facilitan la ejecución de un bloque de instrucciones varias veces, mientras se cumpla una condición o durante un número definido de iteraciones (for, while).
@@ -54,7 +54,7 @@
       .col-lg-6.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img5.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/img5.svg' alt='')
           .tarjeta.tarjeta-bg6
             .p-4
               h5 Compilados
@@ -62,7 +62,7 @@
       .col-lg-6(data-aos="flip-up")
         .tarjeta-avatar-b.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema1/img6.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema1/img6.svg' alt='')
           .tarjeta.tarjeta-bg6
             .p-4
               h5 Interpretados
@@ -72,7 +72,7 @@
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos de programación
-    p.mb-4(data-aos="fade-right") Para desglosar un poco esta temática, se invita a acceder a al siguiente video introductorio, en el cual se presentan de manera general los conceptos básicos de la programación. A través de explicaciones claras y ejemplos sencillos, se aborda qué es un programa, cómo se estructuran los algoritmos y cuál es el papel de las variables y los datos, proporcionando una base conceptual para el estudio de la programación:
+    p.mb-4(data-aos="fade-right") Para desglosar un poco esta temática, se invita a acceder al siguiente video introductorio, en el cual se presentan de manera general los conceptos básicos de la programación. A través de explicaciones claras y ejemplos sencillos, se aborda qué es un programa, cómo se estructuran los algoritmos y cuál es el papel de las variables y los datos, proporcionando una base conceptual para el estudio de la programación:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
         figure(data-aos="zoom-in")
@@ -91,13 +91,12 @@
             table
               thead
                 tr.tarjeta-bg7
-                  th.text-center Tipo de dato
-                  th.text-center Representación
-                  th.text-center Tamaño (bytes)
-                  th.text-center(style="width: 227px;")
-                    p.mb-0 Rango de valores
-                  th.text-center Valor por defecto
-                  th.text-center Clase asociada
+                  th.text-center(style="width: 100px;") Tipo de dato
+                  th.text-center(style="width: 150px;") Representación
+                  th.text-center(style="width: 100px;") Tamaño (#[i bytes])
+                  th.text-center(style="width: 227px;") Rango de valores
+                  th.text-center(style="width: 100px;") Valor por defecto
+                  th.text-center(style="width: 100px;") Clase asociada
               tbody
                 tr
                   td(style="background-color: #F0F8FF").text-center: b byte
@@ -169,7 +168,7 @@
     .BG01.px-5
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-12(data-aos="fade-right")
-          p Los operadores permiten realizar operaciones sobre los datos, existen operadores aritméticos, relacionales y lógicos que permiten construir expresiones más complejas.
+          p Los operadores permiten realizar operaciones sobre los datos; existen operadores aritméticos, relacionales y lógicos que permiten construir expresiones más complejas.
           p.mb-0 Estos son algunos Ejemplos:
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-4.col-8.mb-4.mb-lg-0
@@ -239,44 +238,44 @@
     .row.justify-content-center.BG02.p-4.mb-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/img9.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema1/img9.png", alt="").img400.m-auto
       .col-lg-8(data-aos="fade-right")
         
         SlyderF.p-4.mb-4(columnas="col-lg-6 col-xl-4")
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img10.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img10.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Algoritmos
             p.text-center.mb-5 Pasos para resolver problemas.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img11.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img11.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Variables
             p.text-center.mb-5 Almacenamiento de datos.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img12.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img12.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Tipos de datos
             p.text-center.mb-5 Clasificación de la información.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Operadores
             p.text-center.mb-5 Manipulación de datos.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img13.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Estructuras de control
             p.text-center.mb-5 Flujo del programa.
           .tarjeta.tarjeta--slyder.p-4
             .row.justify-content-center.mb-3
               .col-8
-                img(src="@/assets/curso/temas/tema1/img14.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img14.svg", alt="").img100.m-auto
             h5.text-center.mb-4 Funciones
             p.text-center.mb-5 Reutilización de código.
     
@@ -321,6 +320,9 @@
             li
               i.fas.fa-cloud-arrow-down
               | La revisión de código permite detectar errores y mejorar soluciones.
+            li
+              i.fas.fa-cloud-arrow-down
+              | El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2 Tipos de lenguajes de programación: compilados e interpretados
@@ -328,7 +330,7 @@
     p.mb-4(data-aos="fade-right") En el ámbito de la ingeniería de #[i software], los lenguajes de programación se clasifican comúnmente según la forma en que su código es ejecutado. Dos de las categorías más importantes son los lenguajes compilados e interpretados. Esta clasificación influye directamente en el rendimiento, portabilidad, seguridad y proceso de desarrollo del #[i software].
     
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Lenguajes compilados
 
     p.mb-4(data-aos="fade-right") Este tipo de lenguaje es aquel en el que el programa escrito por el desarrollador (código fuente) se traduce completamente a lenguaje máquina antes de ejecutarse, mediante una herramienta llamada compilador. Este proceso genera un archivo ejecutable que puede correr directamente en el sistema sin necesidad del código original.
@@ -340,7 +342,7 @@
           .tarjeta--slyder.p-3.mb-3
             .row.justify-content-center.align-items-center
               .col-lg-2.d-none.d-lg-block
-                img(src="@/assets/curso/temas/tema1/img17.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img17.svg", alt="").img100.m-auto
               .col-lg-10
                 ul.lista-ul
                   li
@@ -361,7 +363,7 @@
           p #[b Ejemplos:] C, C++, Go, Rust.
           p.mb-0 El proceso de compilación transforma el código escrito por el programador en instrucciones que el procesador puede ejecutar directamente. Esto permite que los programas sean rápidos y eficientes, especialmente en sistemas donde el rendimiento es crítico.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Lenguajes interpretados
     p(data-aos="fade-right") Un lenguaje interpretado es aquel en el que el código fuente se ejecuta línea por línea en tiempo real, mediante un programa llamado intérprete, sin necesidad de generar previamente un archivo ejecutable.
     p.mb-4(data-aos="fade-right") En este tipo de lenguajes, el código no se traduce completamente antes de ejecutarse, sino que el intérprete va leyendo, traduciendo y ejecutando cada instrucción al momento. Esto permite una mayor flexibilidad y facilita la prueba y corrección de errores durante el desarrollo.
@@ -373,7 +375,7 @@
           .tarjeta--slyder.p-4.mb-4
             .row.justify-content-center.align-items-center
               .col-lg-2.d-none.d-lg-block
-                img(src="@/assets/curso/temas/tema1/img18.svg", alt="alt").img100.m-auto
+                img(src="@/assets/curso/temas/tema1/img18.svg", alt="").img100.m-auto
               .col-lg-10
                 ul.lista-ul
                   li
@@ -396,7 +398,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
-        p.mb-4 La siguiente tabla, relaciona un poco cada proceso que diferencia cada uno de estos lenguajes:
+        p.mb-4 La siguiente tabla relaciona un poco cada proceso que diferencia cada uno de estos lenguajes:
         .row.justify-content-center.align-items-center.mb-3
           .col-lg-12
             .titulo-sexto.color-acento-contenido.mb-3
@@ -418,17 +420,17 @@
                       th(style="background-color: #F0F8FF").text-center Ejecución
                       td(style="background-color: #F0F8FF") Previo a ejecución
                       td(style="background-color: #F0F8FF") En tiempo real
-                      td(style="background-color: #F0F8FF") Velocidad vs flexibilidad
+                      td(style="background-color: #F0F8FF") Velocidad vs. flexibilidad
                     tr
                       th.text-center Rendimiento
                       td Alto
                       td Medio
-                      td Optimización vs facilidad
+                      td Optimización vs. facilidad
                     tr
                       th(style="background-color: #F0F8FF").text-center Errores
                       td(style="background-color: #F0F8FF") En compilación
                       td(style="background-color: #F0F8FF") En ejecución
-                      td(style="background-color: #F0F8FF") Detección temprana vs dinámica
+                      td(style="background-color: #F0F8FF") Detección temprana vs. dinámica
                     tr
                       th.text-center Portabilidad
                       td Dependiente del sistema
@@ -445,27 +447,27 @@
       .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img19.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img19.svg' alt="")
         p.text-center.mb-0 En sistemas embebidos y videojuegos, los lenguajes compilados suelen ser preferidos por su eficiencia.
       .col-lg.col-md-6.tarjeta--tabla2.p-4(data-aos="flip-right")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img20.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img20.svg' alt="")
         p.text-center.mb-0 En aplicaciones #[i web] y análisis de datos, los lenguajes interpretados ofrecen mayor productividad.
       .col-lg.col-md-6.tarjeta--tabla.tarjeta--tabla3.p-4(data-aos="flip-left")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img21.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img21.svg' alt="")
         p.text-center.mb-0 El uso de entornos de ejecución como máquinas virtuales permite mejorar la portabilidad del #[i software].
       .col-lg.col-md-6.tarjeta--tabla.tarjeta--tabla4.p-4(data-aos="fade-left")
         .row.justify-content-center.mb-3
           .col-4
-            img(src='@/assets/curso/temas/tema1/img22.svg' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema1/img22.svg' alt="")
         p.text-center.mb-0 El proceso de desarrollo también cambia: los lenguajes interpretados permiten pruebas rápidas sin necesidad de compilación.
     
     .row.justify-content-center.mb-4
       .col-lg-10(data-aos="fade-right")
-        p.mb-0 Los compiladores modernos también incluyen herramientas de análisis estático para mejorar la calidad del código, comprender estas diferencias permite seleccionar la mejor tecnología para cada tipo de solución.
+        p.mb-0 Los compiladores modernos también incluyen herramientas de análisis estático para mejorar la calidad del código; comprender estas diferencias permite seleccionar la mejor tecnología para cada tipo de solución.
     
     .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="fade-right")
@@ -473,7 +475,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-auto.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/temas/tema1/img23.svg', width='180', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img23.svg', width='180', alt='')
             .col-lg-10
               p.mb-0 La elección del lenguaje impacta la arquitectura del sistema, los tiempos de entrega y el mantenimiento del #[i software], por lo que es fundamental analizar las características técnicas antes de decidir.
   

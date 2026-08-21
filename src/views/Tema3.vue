@@ -7,7 +7,7 @@
         span 3
       h1 Sintaxis y estructuras de programación en JavaScript
     
-    p(data-aos="flip-up") JavaScript es un lenguaje de programación que mejora HTML al agregar animaciones, interactividad y efectos visuales dinámicos. Permite una retroalimentación automática en las páginas #[i web]; es decir que todos códigos que son agregados a una página #[i web] se reflejan inmediatamente. JavaScript puede crear interfaces interactivas, como presentaciones animadas y consejos emergentes, adicionalmente es considerado como el lenguaje fundamental en el desarrollo de #[i software] actual, especialmente en aplicaciones #[i web]. Comprender su sintaxis y estructuras de programación es esencial para construir soluciones eficientes, mantenibles y escalables.
+    p(data-aos="flip-up") JavaScript es un lenguaje de programación que potencia las páginas HTML al añadir animaciones, interactividad y efectos visuales dinámicos. Permite una respuesta inmediata en el navegador, lo que significa que cualquier cambio en el código se refleja de forma automática en la #[i web]. Con JavaScript se pueden crear interfaces interactivas, como menús animados o ventanas emergentes. Además, es el lenguaje fundamental en el desarrollo de #[i software] actual, especialmente en aplicaciones #[i web], por lo que comprender su sintaxis y estructuras de programación es esencial para construir soluciones eficientes, mantenibles y escalables.
     p.mb-4(data-aos="flip-up") La siguiente imagen ejemplifica este proceso: 
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-12(data-aos="flip-up")
@@ -20,10 +20,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema3/img1.png', alt='Infografía de matriz RACI')
+                img(src='@/assets/curso/temas/tema3/img1.png', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema3/img1_1.png', alt='Matriz RACI para dispositivos móviles')
+            img(src='@/assets/curso/temas/tema3/img1_1.png', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
     p.mb-4 Un ejemplo concreto es la página Zajuna del SENA, donde gran parte de la interactividad se soporta en JavaScript. Gracias a ello, es posible encontrar efectos dinámicos como el resaltado de textos, sombras, animaciones y movimiento de imágenes, entre otros elementos que mejoran la experiencia del usuario.
     p.mb-4 Zajuna es una plataforma #[i web] interactiva que:
     .row.justify-content-center.mb-4
@@ -42,7 +42,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         p Todo eso requiere JavaScript para funcionar correctamente.
-        p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo! Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo #[i full-stack] utilizando un solo lenguaje.
+        p.mb-4 Adicionalmente, JavaScript trasciende el ámbito de las páginas #[i web], ya que puede emplearse en aplicaciones como Yahoo!, Widgets, Google Apps y en la automatización de tareas dentro de #[i software] de Adobe, entre otros usos. Asimismo, ha ganado relevancia en el desarrollo del lado del servidor mediante plataformas como Node.js, lo que amplía las oportunidades para el desarrollo #[i full-stack] utilizando un solo lenguaje.
         .row.justify-content-center.align-items-center.mb-4
             .col-lg-12
               .bloque-texto-gg.color-primario
@@ -70,7 +70,7 @@
                 )
         p.mb-4 Este conocimiento permite abordar proyectos de #[i software] de forma estructurada y eficiente; además, su comprensión facilita la resolución de problemas complejos en entornos reales de desarrollo. En el contexto actual del desarrollo de #[i software], estas habilidades son altamente valoradas y demandadas en la industria tecnológica.
         .titulo.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/icon.svg', alt='')
           h5 Estructura de programación en JavaScript 
         p.mb-4 Para entender esta estructura, se relaciona el siguiente ejemplo de un código de un programa en Java, seguido de su debida explicación:
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
@@ -113,10 +113,10 @@
         .tarjeta-bg10.p-4
           .row.justify-content-center.align-items-center
             .col-lg-2.d-none.d-lg-block
-              img(src="@/assets/curso/temas/tema3/img3.svg", alt="alt").img100.m-auto
+              img(src="@/assets/curso/temas/tema3/img3.svg", alt="").img100.m-auto
             .col-lg-10
               p MiClase.java
-              p.mb-0 Es importante respetar las letras en mayúsculas y las letras en minúsculas; es decir, el nombre del archivo debe ser exactamente el que se muestra en la línea 1, así también, la extensión debe ser .java. Como cualquier nuevo conocimiento, conforme se realicen más ejercicios, poco a poco se irá familiarizando con la estructura general de los programas en Java. 
+              p.mb-0 Es importante respetar las letras en mayúsculas y las letras en minúsculas; es decir, el nombre del archivo debe ser exactamente el que se muestra en la línea 1; así también, la extensión debe ser .java. Como cualquier nuevo conocimiento, conforme se realicen más ejercicios, poco a poco se irá familiarizando con la estructura general de los programas en Java. 
     p.mb-4.text-center A continuación, se da la explicación de cada línea del código:
     .BG05.px-5.py-3.p-4.mb-4
       .tarjeta--fondo2.p-4
@@ -125,7 +125,7 @@
 
             .col-lg-6.col-12.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img4.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img4.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h5 Línea 1: class MiClase {
               p Marca el inicio de la definición de la clase MiClase. En Java, todo programa debe contar con al menos una clase. Para declarar dicha clase se utiliza la palabra reservada class, seguida del nombre que identificará la clase. Las palabras reservadas siempre se escriben en minúsculas y son exclusivas del lenguaje Java. Finalmente, la llave de apertura { indica que, a partir de ese punto, todo el contenido pertenece a esa clase.
@@ -133,7 +133,7 @@
           .row(titulo="")
             .col-lg-6.col-12.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img5.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h5 Línea 2: public static void main(String[] args){
               p Corresponde al método que se ejecuta para iniciar el programa. Por ahora no es necesario comprender completamente esta línea; a medida que se avance en el aprendizaje, se entenderá el significado de cada una de sus partes. Lo importante es reconocer que todo programa en Java necesita una clase, y dentro de ella debe existir un método main para poder ejecutarse. Al final de la línea se observa nuevamente una llave de apertura {, la cual señala el comienzo de las instrucciones que ejecutará el programa.
@@ -141,7 +141,7 @@
           .row(titulo="")
             .col-lg-6.col-12.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img6.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h5 Línea 3: System.out.println(“Hola mundo”);
               p Se encarga de mostrar el texto Hola mundo en la pantalla. Es importante notar que, al ejecutar el programa, el mensaje aparece sin las comillas dobles. En Java, las cadenas de texto se escriben entre comillas dobles. Aunque aún no se comprenda cada parte de esta instrucción, con el tiempo se logrará entender en detalle. Por ahora, si se desea imprimir texto en pantalla, basta con utilizar la instrucción mostrada en esta línea.
@@ -149,7 +149,7 @@
           .row(titulo="")
             .col-lg-6.col-12.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img7.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img7.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h5 Línea 4: } // Fin del método main
               p Inicia con una llave de cierre }, lo cual indica el término de las instrucciones que forman parte del método main. Al utilizar dos barras diagonales //, todo el contenido que sigue en esa misma línea es ignorado por el compilador de Java. Esto se conoce como comentario de línea y se utiliza para añadir aclaraciones o información que facilite la comprensión del código.
@@ -157,7 +157,7 @@
           .row(titulo="")
             .col-lg-6.col-12.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img8.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img8.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               h5 Línea 5: } // Fin de la clase MiClase
               p Comienza también con una llave de cierre }, indicando el final del cuerpo de la clase MiClase. Esta línea incluye un comentario de línea, por lo que todo el texto que aparece después de las dos barras diagonales // será ignorado por el compilador hasta que se llegue a la siguiente línea. Todos los programas en Java seguirán esta misma estructura.
@@ -166,7 +166,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img9.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img9.svg' alt='')
         h5.text-center Los paréntesis ()
         p Los paréntesis cumplen dos funciones principales en un programa Java, las cuales son:
         ul.lista-ul.mb-0
@@ -176,7 +176,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img10.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img10.svg' alt='')
         h5.text-center Las llaves {}
         p Las llaves en el lenguaje de programación Java se utilizan en los siguientes casos:
         ul.lista-ul.mb-0
@@ -186,7 +186,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img11.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img11.svg' alt='')
         h5.text-center Los corchetes []
         p Los corchetes se emplean en un programa Java para:
         ul.lista-ul.mb-0
@@ -196,7 +196,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img12.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img12.svg' alt='')
         h5.text-center El punto y coma «;»
         p El punto y coma indica el final de una instrucción en un programa Java.
         ul.lista-ul.mb-0
@@ -205,7 +205,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img13.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img13.svg' alt='')
         h5.text-center La coma «,»
         p La coma se utiliza para:
         ul.lista-ul.mb-0
@@ -214,7 +214,7 @@
       .tarjeta.tarjeta-bg13.p-4
         .row.justify-content-center.mb-3
           .col-5
-            img(src='@/assets/curso/temas/tema3/img14.svg' alt='AvatarTop')
+            img(src='@/assets/curso/temas/tema3/img14.svg' alt='')
         h5.text-center El punto «.»
         p El punto en un programa Java se utiliza para:
         ul.lista-ul.mb-0
@@ -229,266 +229,204 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img15.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Este apartado introduce los conceptos fundamentales relacionados con los tipos de datos, los operadores y las reglas que determinan el orden en que se evalúan las expresiones, elementos esenciales para comprender cómo se procesan y ejecutan las instrucciones dentro de un programa.
+        p.mb-0 Este apartado presenta los tipos de datos, los operadores y las reglas que determinan el orden de evaluación de las expresiones en Java. Estos elementos permiten definir la información que se almacena, realizar operaciones y comprender cómo se procesan las instrucciones de un programa.
     
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Tipos de datos
-    p.mb-4 Los tipos de datos permiten establecer cómo se representan y gestionan los valores dentro de un programa, facilitando la organización de la información y el correcto procesamiento de las operaciones durante la ejecución del #[i software]. Dentro de ellos se encuentran:
+      img(src='@/assets/curso/icon.svg', alt='')
+      h5 a) Tipos de datos
+    p.mb-4 Determinan la clase de valores que pueden almacenarse en una variable y las operaciones que pueden realizarse con ellos. En Java se clasifican en tipos de datos primitivos y tipos de datos de referencia.
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 4.
+          span Tipos de datos en Java
     .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .tabla-a.color-acento-contenido 
+          .tabla-a   
+            table
+              thead
+                tr.tarjeta-bg7
+                  th Categoría
+                  th Tipo
+                  th Tamaño / característica
+                  th Descripción
+                  th Ejemplo
+              tbody
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Primitivo
+                  td.text-center byte
+                  td.text-center 8 #[i bits]
+                  td Almacena números enteros en un rango reducido.
+                  td.text-center byte edad = 25;
+                tr
+                  td.text-center Primitivo
+                  td.text-center short
+                  td.text-center 16 #[i bits]
+                  td Almacena números enteros en un rango mayor que #[i byte].
+                  td.text-center short cantidad = 1000;
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Primitivo
+                  td.text-center int
+                  td.text-center 32 #[i bits]
+                  td Almacena números enteros y es uno de los tipos más utilizados.
+                  td.text-center int edad = 25;
+                tr
+                  td.text-center Primitivo
+                  td.text-center long
+                  td.text-center 64 #[i bits]
+                  td Almacena números enteros que requieren un rango mayor que #[i int].
+                  td.text-center long poblacion = 8000000L;
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Primitivo
+                  td.text-center float
+                  td.text-center 32 #[i bits]
+                  td Almacena números de punto flotante con precisión simple.
+                  td.text-center float precio = 25.5f;
+                tr
+                  td.text-center Primitivo
+                  td.text-center double
+                  td.text-center 64 #[i bits]
+                  td Almacena números de punto flotante con doble precisión.
+                  td.text-center double promedio = 4.5;
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Primitivo
+                  td.text-center char
+                  td.text-center 16 #[i bits]
+                  td Almacena un carácter Unicode.
+                  td.text-center char letra = 'A';
+                tr
+                  td.text-center Primitivo
+                  td.text-center boolean
+                  td.text-center #[i true o false]
+                  td Almacena valores lógicos.
+                  td.text-center boolean activo = true;
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Referencia
+                  td.text-center Clase
+                  td.text-center Depende del objeto
+                  td Permite trabajar con objetos creados a partir de una clase.
+                  td.text-center Persona p = new Persona();
+                tr
+                  td.text-center Referencia
+                  td.text-center Interfaz
+                  td.text-center Depende de la implementación
+                  td Define un conjunto de comportamientos que pueden ser implementados por una clase.
+                  td.text-center List&lt;Integer&gt; lista;
+                tr(style="background-color: #F0F8FF")
+                  td.text-center Referencia
+                  td.text-center Arreglo
+                  td.text-center Depende de los elementos
+                  td Permite almacenar varios valores del mismo tipo.
+                  td.text-center int[] edades = {18, 20, 25};
+                tr
+                  td.text-center Referencia
+                  td.text-center String
+                  td.text-center Clase
+                  td Permite representar cadenas de caracteres.
+                  td.text-center String nombre = "Ana";
+
+    p.mb-4 La declaración de una variable en Java sigue la estructura tipo nombreVariable;. Por ejemplo, int edad = 20; declara una variable de tipo entero y le asigna el valor 20. En los valores de tipo float, los literales decimales deben incluir el sufijo f o F, mientras que los valores de tipo double no requieren este sufijo.
+
+    .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo2.p-3.mb-4(data-aos="fade-left")
-          h5.mb-0 a) Tipos de datos primitivos
-        p.mb-4 Los tipos de datos utilizados en el lenguaje de programación Java, conocidos como tipos de datos primitivos, incluyen para números enteros: byte, short, int y long; para números reales: float y double; para valores lógicos: boolean; y para caracteres: char. El tamaño de estos tipos de datos primitivos está definido por la plataforma Java y se clasifican de la siguiente manera:
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-12
-            .titulo-sexto.color-acento-contenido.mb-3
-              h5 Tabla 4.
-              span Clasificación tipos de datos primitivos
-        .row.justify-content-center.align-items-center.mb-4
-          .col-lg-12
-            .tabla-a.color-acento-contenido 
-              .tabla-a   
-                table
-                  thead
-                    tr.tarjeta-bg7
-                      th Tipo
-                      th Primitiva
-                      th Definición
-                  tbody
-                    tr(style="background-color: #F0F8FF")
-                      th.text-center(rowspan="4") Entero
-                      td byte
-                      td Entero en complemento a dos.
-                    tr(style="background-color: #F0F8FF")
-                      td short
-                      td con signo de 8 bits.
-                    tr(style="background-color: #F0F8FF")
-                      td int
-                      td con signo de 16 bits.
-                    tr(style="background-color: #F0F8FF")
-                      td long
-                      td con signo de 32 bits.
-                    tr
-                      th.text-center(rowspan="2") Real
-                      td float
-                      td con signo de 64 bits.
-                    tr
-                      td double
-                      td la norma IEEE 754 de 32 bits.
-        p.mb-0 Es posible encapsular los tipos de datos primitivos para manejarlos como cualquier otro objeto en Java. Por ejemplo, existe una clase envolvente para el tipo primitivo int llamada integer. La utilidad de estas clases envolventes se comprenderá mejor al estudiar las clases contenedoras de datos.
-    .tarjeta-bg2.p-4.mb-4
-      .row.justify-content-center.align-items-center
-        .col-lg-2.d-none.d-lg-block
-          img(src='@/assets/curso/temas/tema3/img16.svg' alt='AvatarTop')
-        .col-lg-10
-          p.mb-4 Ejemplos de declaración de variables:
-          p.mb-0 La declaración de variables en un programa Java se realiza utilizando el siguiente formato: tipo variables; 
-          p.mb-0 int a; (declara la variable entera a).
-          p.mb-0 int a, b; (declara las variables enteras a y b).
-          p.mb-0 int a, b, c; (declara las variables enteras a, b y c).
-          p.mb-0 int a=0; (declara la variable entera y la inicializa con valor cero).
-          p.mb-0 float a=0.0f, b=5.0f; (declara las variables reales a y b y las inicializa a la variable a en 0.0 y a la variable b en 5.0).
-          p.mb-0 Nota: en el caso de solo las variables float, cuando se inicializa la variable con un valor real este valor debe terminar en f de float.
-          p.mb-0 doublé a=0.0, b=0.0; (declara las variables reales a y b y las inicializa con valor cero, no requiere de ninguna letra en el valor cero).
-          p.mb-0 boolean sw; (declara la variable lógica sw).
-          p.mb-0 char letra = ‘a’; (declara la variable char letra y la inicializa con el valor de a minúscula, observe que el valor a està entre apóstrofes).
-    
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .titulo2.p-3.mb-4(data-aos="fade-left")
-          h5.mb-0 b) Tipos de datos referencia
-        p En Java, los objetos (instancias de clases) se gestionan mediante referencias. Cuando se crea una nueva instancia de una clase utilizando el operador new, este retorna una referencia del tipo de la clase. Para comprenderlo mejor, se relaciona un ejemplo:
-        p.mb-4 Se tiene definida e implementada una clase llamada factorial, como se muestra a continuación:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
-          .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
-            .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
-            .row.align-items-center
-              .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 public class Factorial {
-                p.text-white.ms-2.mb-1 // Atributos
-                p.text-white.ms-2.mb-1 int n, fact;
-                p.text-white.ms-2.mb-1 // Metodos
-                p.text-white.ms-2.mb-1 public void EstablecerNumero(int n1) {
-                p.text-white.ms-3.mb-1 n = n1;
-                p.text-white.ms-2.mb-1 }
-                p.text-white.ms-2.mb-1 public void CalcularFactorial() {
-                p.text-white.ms-3.mb-1 fact = 1;
-                p.text-white.ms-3.mb-1 for (int i = 1; i <= n; i++) {
-                p.text-white.ms-4.mb-1 fact = fact * i;
-                p.text-white.ms-3.mb-1 }
-                p.text-white.ms-2.mb-1 }
-                p.text-white.ms-2.mb-1 public int ObtenerFactorial() {
-                p.text-white.ms-3.mb-1 return fact;
-                p.text-white.ms-2.mb-1 }
-                p.text-white.mb-1 } // Fin de la clase Factorial
-        p.mb-4 Y en la clase de aplicación, se tiene el siguiente código de programa:
-        .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
-          .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
-            .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
-            .row.align-items-center
-              .col-md-8.mb-3.mb-md-0
-                  p.text-white.mb-1 EjecutaFactorial.java
-                  p.text-white.mb-1 import java.util.Scanner;
-                  p.text-white.mb-1 public class EjecutaFactorial {
-                  p.text-white.ms-2.mb-1 public static void main(String[] args) {
-                  p.text-white.ms-3.mb-1 // atributos 
-                  p.text-white.ms-3.mb-1 int n;
-                  p.text-white.ms-3.mb-1 // establecer objeto de entrada 
-                  p.text-white.ms-3.mb-1 Scanner teclado = new Scanner(System.in);
-                  p.text-white.ms-3.mb-1 // Instancia de clase 
-                  p.text-white.ms-3.mb-1 Factorial objFactorial = new Factorial();
-                  p.text-white.ms-3.mb-1 System.out.print("Ingrese Numero: ");
-                  p.text-white.ms-3.mb-1 n = teclado.nextInt();
-                  p.text-white.ms-3.mb-1 objFactorial.EstablecerNumero(n);
-                  p.text-white.ms-3.mb-1 objFactorial.CalcularFactorial();
-                  p.text-white.ms-3.mb-1 System.out.println("***** RESULTADO *******");
-                  p.text-white.ms-3.mb-1 System.out.println("El factorial es: " + objFactorial.ObtenerFactorial());
-                  p.text-white.ms-2.mb-1 } // Fin del método main
-                  p.text-white.mb-1 } // Fin de la clase EjecutaFactorial
+        .cajon.cajon.color-secundario.p-4
+          p.mb-0 Java también proporciona clases envolventes para representar los tipos primitivos como objetos. Por ejemplo, Integer corresponde al tipo primitivo int, Double a double y Boolean a boolean.
+
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Operadores Java
-    p.mb-4  Los operadores permiten realizar asignaciones, cálculos, comparaciones y evaluaciones lógicas dentro de un programa; a continuación, se explican y ejemplifican para mayor entendimiento, algunos de los más utilizados en el lenguaje Java:            
+      img(src='@/assets/curso/icon.svg', alt='')
+      h5 b) Operadores
+    p.mb-4 Son símbolos que permiten realizar diferentes operaciones sobre los datos de un programa. En Java se utilizan para asignar valores, realizar operaciones aritméticas, incrementar o disminuir valores, comparar datos y combinar expresiones lógicas.
+
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 5.
+          span Operadores en Java
     .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr.tarjeta-bg7
+                th Categoría
+                th Operadores
+                th Función
+            tbody
+              tr(style="background-color: #F0F8FF")
+                td.text-center Asignación
+                td.text-center =, +=, -=, *=, /=, %=
+                td Permiten asignar un valor a una variable o modificarlo mediante una operación.
+              tr
+                td.text-center Aritméticos
+                td.text-center +, -, *, /, %
+                td Permiten realizar operaciones matemáticas como suma, resta, multiplicación, división y obtención del resto.
+              tr(style="background-color: #F0F8FF")
+                td.text-center Incremento y decremento
+                td.text-center ++, --
+                td Permiten aumentar o disminuir en una unidad el valor de una variable.
+              tr
+                td.text-center Relacionales
+                td.text-center &lt;, &gt;, &lt;=, &gt;=, ==, !=
+                td Permiten comparar valores y producen un resultado booleano (#[i true] o #[i false]).
+              tr(style="background-color: #F0F8FF")
+                td.text-center Lógicos
+                td.text-center !, &&, ||
+                td Permiten combinar expresiones booleanas mediante las operaciones de negación, conjunción (Y) y disyunción (O).
+
+    .row.justify-content-center.mb-4
       .col-lg-10
-        .row.justify-content-center.align-items-center
-          .col-lg-8
-            .tarjeta--fondo9.p-4
-              .titulo2.p-2.mb-4(data-aos="fade-left")
-                h5.mb-0 a) Operadores de asignación Java operador
-              p.mb-0 = para Asignación simple,
-              p.mb-0 ejemplo:
-              p.mb-0 C = 8;
-              p.mb-0 operador += para Asignación suma, ejemplo:
-              p.mb-0 n+=5;
-              p.mb-0 n=n+5;
-              p.mb-0 Estos dos ejemplos dan el mismo resultado operador -= para Asignación Resta,
-              p.mb-0 ejemplo: 
-              p.mb-0 n-=5;
-              p.mb-0 n=n-5;
-              p.mb-0 Estos dos ejemplos dan el mismo resultado:
-              p.mb-0 operador *= para Asignación Multiplicación, ejemplo:
-              p.mb-0 n*=5; 
-              p.mb-0 n=n*5; 
-              p.mb-0 Estos dos ejemplos dan el mismo resultado operador /= para Asignación División, ejemplo:  
-              p.mb-0 n/=5;   
-              p.mb-0 n= n/5; 
-              p.mb-0 Estos dos ejemplos dan el mismo resultado operador % = para Asignación Módulo, ejemplo: 
-              p.mb-0 n%=5;
-              p.mb-0 n=n%5;
-              p.mb-0 Estos dos ejemplos dan el mismo resultado
-          .col-lg-4.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema3/img17.svg' alt='AvatarTop')
-    .BG01.px-5.mb-4
-      .row.justify-content-center.align-items-center
-        .col-lg-10
-          .titulo2.p-2.mb-3(data-aos="fade-left")
-            h5.mb-0 b) Operadores aritméticos Java
-          p.mb-0 operador + para Suma, ejemplo c=a+b
-          p.mb-0 operador - para Resta, ejemplo c=a-b
-          p.mb-0 operador * para Multiplicación, ejemplo c=a*b
-          p.mb-0 operador / para División, ejemplo c=a/b
-          p.mb-0 operador % para Modulo (resto), ejemplo c=a%b 
-          p.mb-4 operador ++ para Incrementar, ejemplo a++ ; significa a=a+1 operador -- para Decrementar, ejemplo a--; significa a=a-1
+        .tarjeta-bg2.p-3
           .row.justify-content-center.align-items-center
-            .col-lg-5.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/temas/tema3/img18.png' alt='AvatarTop') 
-            .col-lg-7
-              .titulo2.p-2.mb-3(data-aos="fade-left")
-                h5.mb-0 c) Operadores relacionales Java
-              p.mb-0 operador < para Menor a operador > para Mayor a
-              p.mb-0 operador <= para Menor o igual a 
-              p.mb-0 operador >= para Mayor o igual a 
-              p.mb-0 operador == para Igual a  
-              p.mb-2 operador != para Diferente a
+            .col-auto
+                img(src='@/assets/curso/temas/tema3/img3-2.svg' alt='')
+            .col-lg-10
+              p.mb-0 Por ejemplo, los operadores de asignación permiten modificar directamente el valor de una variable, como en #[i n += 5;], que equivale a #[i n = n + 5;]. Los operadores relacionales permiten realizar comparaciones, mientras que los operadores lógicos permiten combinar sus resultados para construir condiciones más complejas.
 
-              .titulo2.p-2.mb-3(data-aos="fade-left")
-                h5.mb-0 d) Operadores lógicos Java
-              p.mb-0 operador !  para No (Complemento
-              p.mb-0 operador && para y (And)}
-              p.mb-0 operador || para o (or)
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
-      h5 Orden de evaluación 
-    p.mb-3 En JavaScript se refiere a la forma en que el intérprete determina qué partes de una expresión se ejecutan primero y en qué secuencia. Esto es importante porque puede influir directamente en el resultado de una operación. Dentro de ellos se encuentran:
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
-        LineaTiempoD.color-acento-botones
-          .row(numero="A" titulo="Precedencia de operadores")
-            p.mb-1 JavaScript utiliza reglas de precedencia para definir qué operadores se evalúan primero.
-            p.mb-1 #[b Ejemplo:]
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let resultado = 2 + 3 * 4;
-                p.mb-0.text-white Primero se realiza la multiplicación (3 * 4 = 12), luego la suma (2 + 12 = 14).
-                    
-          .row(numero="B" titulo="Asociatividad")
-            p.mb-1 Cuando los operadores tienen la misma precedencia, se aplica la asociatividad.
-            p.mb-1 #[b Ejemplo:]
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let resultado = 10 - 5 - 2;
-                p.mb-0.text-white Se evalúa de izquierda a derecha: (10 - 5) = 5, luego 5 - 2 = 3.
-                    
-          .row(numero="C" titulo="Uso de paréntesis")
-            p.mb-1 Los paréntesis permiten modificar el orden de evaluación.
-            p.mb-1 #[b Ejemplo:]
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let resultado = (2 + 3) * 4;
-                p.mb-0.text-white Primero se resuelve el paréntesis (2 + 3 = 5) y luego la multiplicación (5 * 4 = 20).
-                    
-          .row(numero="D" titulo="Evaluación de izquierda a derecha")
-            p.mb-1 En general, las expresiones se evalúan de izquierda a derecha respetando la precedencia.
-            p.mb-1 #[b Ejemplo:]
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white console.log(1 + 2 * 3);
-                    
-          .row(numero="E" titulo="Evaluación corta (Short-circuit)")
-            p.mb-1 Algunos operadores lógicos detienen la evaluación anticipadamente.
-            p.mb-1 #[b Ejemplo:]
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white false && console.log('Hola');
-                p.mb-0.text-white El mensaje no se ejecuta porque el resultado ya es false.
-      .col-lg-4.col-8.order-1.order-lg-2.mb-4.mb-lg-0
-        figure
-          img(src='@/assets/curso/temas/tema3/img19.png', alt='')
-    .row.justify-content-center.align-items-center
-      .col-lg-10
-        .bloque-texto-gg.color-primario
-          .bloque-texto-gg__texto1.p-4
-             p.mb-3 En conclusión, orden de evaluación depende de:
-             ul.lista-ul
-              li
-                i.fas.fa-cloud-arrow-down
-                | La precedencia de operadores.
-              li
-                i.fas.fa-cloud-arrow-down
-                | La asociatividad.
-              li
-                i.fas.fa-cloud-arrow-down
-                | El uso de paréntesis.
-                li
-                i.fas.fa-cloud-arrow-down
-                | La evaluación lógica (short-circuit).
+      img(src='@/assets/curso/icon.svg', alt='')
+      h5 c) Orden de evaluación
+    p.mb-4 Determina la forma en que Java procesa los operadores que aparecen en una expresión. Para establecer este orden se consideran principalmente la precedencia, la asociatividad y el uso de paréntesis. En las expresiones que utilizan operadores lógicos como #[i &&] y #[i ||], también puede aplicarse la evaluación en cortocircuito.
 
-          .bloque-texto-gg__img1(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img20.svg')})`}"
-          )          
-                  
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 6.
+          span Orden de evaluación de expresiones en Java
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-12
+        .tabla-a.color-acento-contenido
+          table
+            thead
+              tr.tarjeta-bg7
+                th Elemento
+                th Función
+                th Ejemplo
+                th Resultado o comportamiento
+            tbody
+              tr(style="background-color: #F0F8FF")
+                td.text-center Precedencia
+                td Determina qué operadores se evalúan primero.
+                td.text-center 2 + 3 * 4
+                td Primero 3 * 4 y después 2 + 12; resultado: 14.
+              tr
+                td.text-center Asociatividad
+                td Determina el sentido de evaluación cuando los operadores tienen la misma precedencia.
+                td.text-center 10 - 5 - 2
+                td Se evalúa de izquierda a derecha: (10 - 5) - 2 = 3.
+              tr(style="background-color: #F0F8FF")
+                td.text-center Paréntesis
+                td Permiten establecer o modificar el orden de evaluación.
+                td.text-center (2 + 3) * 4
+                td Primero 2 + 3 y después 5 * 4; resultado: 20.
+              tr
+                td.text-center Cortocircuito
+                td Detiene la evaluación de una expresión lógica cuando su resultado ya puede determinarse.
+                td.text-center false && verificar()
+                td verificar() no se ejecuta porque el resultado de && ya es #[i false].
+
+    p.mb-0 En síntesis, comprender la precedencia, la asociatividad, el uso de paréntesis y la evaluación en cortocircuito permite interpretar correctamente las expresiones y prever el resultado de las operaciones realizadas por un programa en Java.
+
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.2 Expresiones, funciones y comentarios
@@ -498,15 +436,15 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/icon.svg', alt='')
           h5 Expresiones
         p.mb-4 En JavaScript, una expresión es cualquier fragmento de código que produce un valor. Las expresiones son la base de la programación, ya que permiten realizar cálculos, comparaciones, asignaciones y evaluaciones lógicas dentro de un programa.
-        p.mb-0 Los siguientes, son los tipos de expresiones:
+        p.mb-0 Los siguientes son los tipos de expresiones:
     
     .row.justify-content-center.BG02.p-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema3/img21.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema3/img21.png", alt="").img400.m-auto
       .col-lg-8
         p.mb-5
         SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
@@ -569,15 +507,15 @@
             p.mb-0 let c = (5 > 3) && (2 < 1); // ¿Cuál es el resultado?
           .col-lg-7.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/temas/tema3/img22.png", alt="alt").img400.m-auto
+              img(src="@/assets/curso/temas/tema3/img22.png", alt="").img400.m-auto
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-3.col-6.mb-4.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema3/img23.svg", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema3/img23.svg", alt="").img400.m-auto
       .col-lg-9
         .titulo.mb-4(data-aos="fade-left")
-          img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/icon.svg', alt='')
           h5 Funciones
         p.mb-3 En JavaScript, una función es un bloque de código diseñado para realizar una tarea específica. Las funciones permiten reutilizar código, organizar mejor los programas y facilitar el mantenimiento.
         p.mb-3 Una función se define utilizando la palabra reservada function, seguida de un nombre, paréntesis y un bloque de código.
@@ -617,15 +555,15 @@
             p.mb-0.text-white };
       .col-lg-4.mb-3
         .tarjeta-bg3.p-4.h-100
-          p.mb-3 #[b Funciones flecha (Arrow Functions)]
+          p.mb-3 #[b Funciones flecha (#[i arrow functions])]
           p.mb-0 Son una forma más corta de escribir funciones.
           p.mb-0 #[b Ejemplo: ]
           .tarjeta--fondo5.p-2
             p.mb-0.text-white const suma = (a, b) => a + b;
       .col-lg-4.mb-3
         .cajon.c01.p-4.h-100
-          p.mb-3 #[b Ámbito (Scope) de las funciones]
-          p.mb-0 El scope define el alcance de las variables dentro de una función.
+          p.mb-3 #[b Ámbito (#[i Scope]) de las funciones]
+          p.mb-0 El #[i scope] define el alcance de las variables dentro de una función.
           p.mb-0 #[b Ejemplo: ]
           .tarjeta--fondo4.p-2
             p.mb-0.text-white function ejemplo() {
@@ -645,8 +583,8 @@
             p.mb-0 Crear una función flecha que multiplique dos números.
           .col-lg-7.col-10.mb-4.mb-lg-0.order-1.order-lg-2
             figure
-              img(src="@/assets/curso/temas/tema3/img24.png", alt="alt").img400.m-auto
-        p.mb-4.text-center Comprendiendo lo que tiene que ver tanto con las expresiones, como con las funciones, se relaciona la importancia de cada una:
+              img(src="@/assets/curso/temas/tema3/img24.png", alt="").img400.m-auto
+        p.mb-4.text-center Comprendiendo lo que tiene que ver tanto con las expresiones como con las funciones, se relaciona la importancia de cada una:
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .tarjeta--container.row
@@ -654,20 +592,20 @@
             .row.justify-content-center.mb-4
               .col-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img25.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema3/img25.svg', alt='')
               
             h5.text-center Importancia de las funciones
-            p Las funciones son fundamentales en JavaScript porque permiten dividir el código en partes más pequeñas, reutilizables y fáciles de entender, comprender el uso de funciones en JavaScript es esencial para desarrollar aplicaciones eficientes y bien estructuradas.
+            p Las funciones son fundamentales en JavaScript porque permiten dividir el código en partes más pequeñas, reutilizables y fáciles de entender; comprender el uso de funciones en JavaScript es esencial para desarrollar aplicaciones eficientes y bien estructuradas.
           .col-md.tarjeta.tarjeta-bg3.p-5
             .row.justify-content-center.mb-4
               .col-4
                 figure
-                  img(src='@/assets/curso/temas/tema3/img26.svg', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/temas/tema3/img26.svg', alt='')
             h5.text-center Importancia de las expresiones
             p.mb-2 Las expresiones permiten construir la lógica de un programa, realizar cálculos, evaluar condiciones y manipular datos.
             p.mb-2 Comprender las expresiones en JavaScript es fundamental para desarrollar programas eficientes. Estas permiten realizar múltiples operaciones y son esenciales en cualquier aplicación.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Comentarios
     p.mb-4 Los comentarios en el lenguaje de programación Java se utilizan para añadir anotaciones o mensajes aclaratorios dentro del código; no son ejecutados y se clasifican en tres tipos:
     .row.justify-content-center.align-items-center.mb-4
@@ -681,7 +619,7 @@
                 p.mb-0.text-white // Atributos int a,b,c; // a,b,c representan atributos enteros de la clase
           .row(titulo="Comentarios de bloques")
             .col-md-12.mb-4.mb-md-0
-              p.mb-3 Comienzan con los caracteres /* en cualquier parte de la línea de código, continúan con el contenido del comentario y finalizan con los caracteres /
+              p.mb-3 Comienzan con los caracteres /* en cualquier parte de la línea de código, continúan con el contenido del comentario y finalizan con los caracteres /.
               p.mb-0 #[b Ejemplo: ]
               .tarjeta--fondo4.p-4
                 p.mb-0.text-white /
@@ -692,7 +630,7 @@
                 p.mb-0.text-white  */
           .row(titulo="Comentarios de documentación")
             .col-md-12.mb-4.mb-md-0
-              p.mb-3 Se utilizan para documentar el programa. Empiezan con los caracteres /** en cualquier parte de la línea de instrucción, luego se escribe el contenido del comentario y finalizan con los caracteres /
+              p.mb-3 Se utilizan para documentar el programa. Empiezan con los caracteres /** en cualquier parte de la línea de instrucción, luego se escribe el contenido del comentario y finalizan con los caracteres /.
               p.mb-0 #[b Ejemplo: ]
               .tarjeta--fondo4.p-4
                 p.mb-0.text-white /*
@@ -704,7 +642,7 @@
                 p.mb-0.text-white  */
       .col-lg-4.col-8.mb-4.mb-lg-0.order-1.order-lg-2
         figure
-          img(src='@/assets/curso/temas/tema3/img27.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema3/img27.png', alt='')
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.3 Estructuras de selección
@@ -715,7 +653,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.mb-4.mb-lg-0
               figure
-                img(src='@/assets/curso/temas/tema3/img28.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img28.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p.mb-3 Se utiliza para ejecutar un bloque de código si una condición es verdadera.
                 p.mb-0 #[b Ejemplo: ]
@@ -728,7 +666,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema3/img29.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img29.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p.mb-3 Permite ejecutar un bloque de código si la condición es verdadera y otro si es falsa.
                 p.mb-0 #[b Ejemplo: ]
@@ -743,7 +681,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema3/img30.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img30.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p.mb-3 Se utiliza para evaluar múltiples condiciones.
                 p.mb-0 #[b Ejemplo: ]
@@ -760,7 +698,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema3/img31.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img31.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p.mb-3 Permite seleccionar una opción entre múltiples casos.
                 p.mb-0 #[b Ejemplo: ]
@@ -780,7 +718,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-6.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/tema3/img32.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img32.png', alt='')
             .col-lg-6.mb-4.mb-md-0
               p.mb-3 Es una forma abreviada de la estructura if-else.
                 p.mb-0 #[b Ejemplo: ]
@@ -792,7 +730,7 @@
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema3/img33.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img33.svg', alt='')
           .col-lg-8
             p.mb-3 #[b Ejercicios propuestos:]
             ol.lista-ol--cuadro
@@ -850,22 +788,22 @@
       h2 3.4 Estructuras de repetición (for y while)
     p.mb-4 Las estructuras de repetición permiten ejecutar un conjunto de instrucciones de manera repetida, ya sea un número determinado de veces o mientras se cumpla una condición específica. En Java, los bucles for y while son ampliamente utilizados para automatizar tareas repetitivas y controlar el flujo del programa de forma eficiente, según las necesidades de cada situación.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Repetición sobre un rango determinado: for
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p.mb-3 El for es una estructura de repetición que permite ejecutar un conjunto de instrucciones tantas veces como sea necesario. Esta estructura consta de tres partes fundamentales: la variable de inicio, la condición y el incremento.
-        p.mb-3 Bucle for, su sintaxis y formato es la siguiente:
+        p.mb-3 El bucle for permite repetir un bloque de instrucciones mientras se cumpla una condición. Su sintaxis es la siguiente:
         .p-2.tarjeta--fondo5.p-3
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                  p.text-white.mb-1 for(iniciación; condición; incremento)
+                  p.text-white.mb-1 for (inicialización; condición; incremento)
                   p.text-white.mb-1  {
                   p.text-white.mb-1  // Bloque de instrucciones
                   p.text-white.mb-1  }
       .col-lg-5
         figure
-          img(src="@/assets/curso/temas/tema3/img39.svg", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema3/img39.svg", alt="").img400.m-auto
     .BG01.px-5
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -878,16 +816,16 @@
             p.text-white.mb-1  System.out.println("hola");
             p.text-white.mb-1  }
           figure.mb-4
-            img(src="@/assets/curso/temas/tema3/img34.png", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema3/img34.png", alt="").img400.m-auto
           p.mb-4 Como resultado, este bucle for imprimirá 6 veces la palabra hola, ya que en Java el ciclo for inicia desde el valor definido (en este caso 0). Por lo tanto, si se requieren 10 repeticiones, la condición debería ser i<=9, comenzando desde cero.
           .tarjeta--fondo5.p-4.mb-4
             p.text-white.mb-1 for (int j = 1; j< 4;j++){
             p.text-white.mb-1  System.out.print(objArray01.muestra(j)+" ");
             p.text-white.mb-1  }
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 Repeticiones condicionales: while
-    p El while, al igual que el for, es una estructura de repetición; la diferencia principal es que el while no requiere una variable de control ni un incremento explícito, ya que solo necesita una condición para ejecutarse. El while evalúa dicha condición y, si se cumple, ejecuta el bloque de instrucciones; posteriormente vuelve a evaluar la condición. Cuando esta deja de cumplirse, el ciclo se detiene y el programa continúa con su flujo normal.
+    p El while, al igual que el for, es una estructura de repetición; la diferencia principal es que el while no requiere una variable de control ni un incremento explícito, ya que solo necesita una condición para ejecutarse. El while evalúa dicha condición y, si se cumple, ejecuta el bloque de instrucciones; posteriormente, vuelve a evaluar la condición. Cuando esta deja de cumplirse, el ciclo se detiene y el programa continúa con su flujo normal.
     p.mb-4 Su sintaxis y funcionamiento son similares a los de C/C++. En la estructura while, la condición se evalúa antes de ejecutar el bloque de instrucciones.
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -906,7 +844,7 @@
               p.text-white.mb-1  }
           .col-lg-6
             figure
-              img(src="@/assets/curso/temas/tema3/img35.png", alt="alt").img400.m-auto
+              img(src="@/assets/curso/temas/tema3/img35.png", alt="").img400.m-auto
         p.mb-0 Este ejemplo del ciclo while finalizará cuando A deje de ser menor que B; es decir, cuando la variable A alcance el valor de 6. En cada iteración del ciclo, A se incrementa en 1; por lo tanto, cuando A sea igual a 6, la condición ya no se cumple y el ciclo termina.
     separador
     #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")

@@ -28,12 +28,12 @@
         .titulo3.p-4(data-aos="fade-left")
           p.mb-0 ¿Qué es la depuración?
     p.text-center La depuración consiste en detectar errores, analizar el comportamiento del programa y corregir fallos en la lógica del código.
-    p.mb-3.text-center Las siguiente son las herramientas de depuración:
+    p.mb-3.text-center Las siguientes son las herramientas de depuración:
 
     .row.justify-content-center.BG02.p-4
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema5/img2.png", alt="alt").img400.m-auto
+          img(src="@/assets/curso/temas/tema5/img2.png", alt="").img400.m-auto
       .col-lg-8
         p.mb-5
         SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
@@ -82,35 +82,35 @@
                 p.mb-0.text-white    return a + b;
                 p.mb-0.text-white  }
                 p.mb-0.text-white  console.log(suma(2,3));
-    p.mb-4.text-center Igualmente, para detectar errores en Java existen unas técnicas de depuración como son: 
+    p.mb-4.text-center Igualmente, para detectar errores en Java existen unas técnicas de depuración, como son: 
     .tarjeta--container.row
       .col-md.tarjeta--fondo9.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img3.svg', alt='')
           
-        p.mb-0 Ejecución paso a paso.
+        p.text-center.mb-0 Ejecución paso a paso.
       .col-md.tarjeta.tarjeta--fondo7.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img4.svg', alt='')
           
-        p.mb-0 Inspección de variables.         
+        p.text-center.mb-0 Inspección de variables.         
       .col-md.tarjeta.tarjeta--fondo10.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img5.svg', alt='')
           
-        p.mb-0 Análisis del flujo del programa.           
+        p.text-center.mb-0 Análisis del flujo del programa.           
       .col-md.tarjeta.tarjeta--fondo11.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img6.svg', alt='Texto que describa la imagen')
-        p.mb-0 Uso de registros (logs).
+              img(src='@/assets/curso/temas/tema5/img6.svg', alt='')
+        p.text-center.mb-0 Uso de registros (logs).
 
     separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -149,13 +149,13 @@
     .row.justify-content-center.mb-4
       .col-lg-10.d-block.d-lg-none
         figure
-          img(src='@/assets/curso/temas/tema5/img8_1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema5/img8_1.svg', alt='')
       
       .col-lg-10.d-none.d-lg-block
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema5/img8.svg', alt='Texto que describa la imagen')                  
+              img(src='@/assets/curso/temas/tema5/img8.svg', alt='')                  
           .tarjeta.tarjeta-bg4.p-3(x="7%" y="15%" numero="+")
             p Ejecuta el bloque de código y verifica si se produce algún error.
           .tarjeta.tarjeta-bg4.p-3(x="7%" y="43%" numero="+")
@@ -168,7 +168,7 @@
         p.mb-0 A continuación, se presentan distintas formas y escenarios prácticos para generar, gestionar y clasificar errores, desde la creación de errores personalizados hasta el uso de estructuras modernas para el control de fallos y la identificación de los tipos de errores más comunes en JavaScript:          
 
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 a) Generar errores personalizados
     p.mb-4 Es posible generar errores de forma manual utilizando la instrucción throw.
     .row.justify-content-center.align-items-center.mb-4
@@ -204,7 +204,7 @@
       .col-md-6.col-lg-4.mb-4
         .tarjeta-foto-hover
           .tarjeta-foto-hover__img
-            img(src='@/assets/curso/temas/tema5/img9.png' alt='Gestión de errores')
+            img(src='@/assets/curso/temas/tema5/img9.png' alt='')
           .tarjeta-foto-hover__content
             .tarjeta-foto-hover__icon
               i.fas.fa-chevron-up
@@ -215,7 +215,7 @@
       .col-md-6.col-lg-4.mb-4
         .tarjeta-foto-hover
           .tarjeta-foto-hover__img
-            img(src='@/assets/curso/temas/tema5/img10.png' alt='Validación de entrada')
+            img(src='@/assets/curso/temas/tema5/img10.png' alt='')
           .tarjeta-foto-hover__content
             .tarjeta-foto-hover__icon
               i.fas.fa-chevron-up
@@ -226,7 +226,7 @@
       .col-md-6.col-lg-4.mb-4
         .tarjeta-foto-hover
           .tarjeta-foto-hover__img
-            img(src='@/assets/curso/temas/tema5/img11.png' alt='Prevención de fallos')
+            img(src='@/assets/curso/temas/tema5/img11.png' alt='')
           .tarjeta-foto-hover__content
             .tarjeta-foto-hover__icon
               i.fas.fa-chevron-up
@@ -256,7 +256,7 @@
     p.mb-4.text-center Si la solicitud falla (por ejemplo, por falta de conexión), el método .catch() maneja el error adecuadamente.            
     
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 b) Manejo de errores con async y await
     p.mb-4 Para una gestión más clara en funciones asíncronas, se utiliza try...catch.
     .row.justify-content-center.align-items-center.mb-4
@@ -283,7 +283,7 @@
                 p.text-white.mb-1 fetchData();
     p.text-center Esto evita promesas no controladas y permite un manejo estructurado de errores.
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5  c) Utilizar finally para limpieza
     p.mb-4 El bloque finally asegura que ciertas acciones se ejecuten siempre, incluso si ocurre un error.
     .row.justify-content-center.align-items-center.mb-4
@@ -310,7 +310,7 @@
                 p.text-white.mb-1  
                 p.text-white.mb-1 processTask();
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 d) Diferentes tipos de errores de JavaScript              
     p.mb-4 Los errores en JavaScript se clasifican en distintas categorías:
     .tarjeta--container.row.mb-4
@@ -318,7 +318,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img12.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img12.svg', alt='')
         h5.text-center ReferenceError
         p.mb-2 Se intenta usar una variable que no ha sido definida.
         p.mb-0 #[b Ejemplo]:
@@ -328,7 +328,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img13.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img13.svg', alt='')
         h5.text-center TypeError
         p.mb-2 Se intenta ejecutar una operación sobre un tipo de dato incorrecto.
         p.mb-0 #[b Ejemplo]:
@@ -339,7 +339,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img14.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img14.svg', alt='')
         h5.text-center SyntaxError
         p.mb-2 Se presenta cuando la sintaxis del código no es válida.
         p.mb-0 #[b Ejemplo]:
@@ -351,7 +351,7 @@
         .row.justify-content-center.mb-4
           .col-6
             figure
-              img(src='@/assets/curso/temas/tema5/img15.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema5/img15.svg', alt='')
         h5.text-center RangeError
         p.mb-2 Ocurre cuando se excede el rango permitido de valores.
         p.mb-0 #[b Ejemplo]:
@@ -392,7 +392,7 @@
               p.text-white.mb-1  }  
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img17.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img17.svg', alt='')   
       .row(titulo="b) Condiciones mal planteadas")
         p.mb-2 Las condiciones mal formuladas son otra fuente frecuente de fallas de lógica. Esto sucede cuando la expresión condicional no representa correctamente la regla del problema. Por ejemplo, al trabajar con edades, rangos, notas o límites, un pequeño detalle como usar > en vez de >= puede modificar totalmente el resultado del programa.
         p.mb-2 #[b Ejemplo:]
@@ -414,7 +414,7 @@
               p.text-white.mb-1  }  
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img18.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img18.svg', alt='')   
       .row(titulo="c) Bucles infinitos")
         p.mb-2 Un bucle infinito ocurre cuando la condición de repetición nunca deja de cumplirse o cuando la variable de control no se actualiza correctamente. Esta falla puede congelar la aplicación, consumir recursos innecesarios y afectar seriamente el rendimiento del sistema.
         p.mb-2 #[b Ejemplo:]
@@ -436,7 +436,7 @@
               p.text-white.mb-1  }
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img19.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img19.svg', alt='')   
       .row(titulo="d) Comparación de tipos incorrecta")
         p.mb-2 JavaScript permite conversiones implícitas de tipos cuando se usa el operador ==. Esto puede generar resultados engañosos, ya que dos valores de diferente tipo pueden considerarse iguales. En aplicaciones reales, esta situación puede causar validaciones erróneas, decisiones equivocadas y errores de negocio.
         p.mb-2 #[b Ejemplo:]
@@ -450,7 +450,7 @@
               p.text-white.mb-1  Recomendación: usar preferiblemente el operador === para evitar ambigüedades y mantener un código más confiable.
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img20.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img20.svg', alt='')   
       .row(titulo="e) Variables no inicializadas")
         p.mb-2 Usar variables no inicializadas puede provocar resultados inesperados, como undefined o NaN. Este problema es común cuando el programador asume que una variable ya contiene un valor, pero en realidad nunca fue inicializada correctamente.
         p.mb-2 #[b Ejemplo:]
@@ -467,7 +467,7 @@
               p.text-white.mb-1  console.log(x + 5); // 5
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img21.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img21.svg', alt='')   
       .row(titulo="f) Índices fuera de rango")
         p.mb-2 En los arreglos, acceder a una posición inexistente no produce necesariamente un error visible, pero sí devuelve undefined. Esto puede generar efectos en cadena cuando se intenta usar ese valor en operaciones, comparaciones o métodos posteriores.
         p.mb-2 #[b Ejemplo:]
@@ -486,7 +486,7 @@
               p.text-white.mb-1 }
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img22.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img22.svg', alt='')   
       .row(titulo="g) Mutación no deseada de datos")
         p.mb-2 En JavaScript, cuando se asigna un arreglo u objeto a otra variable, en muchos casos no se crea una copia independiente, sino una referencia al mismo dato en memoria. Esto significa que, al modificar una variable, la otra también cambia. Esta situación genera fallas lógicas difíciles de detectar, especialmente en programas grandes.
         p.mb-2 #[b Ejemplo:]
@@ -506,7 +506,7 @@
               p.text-white.mb-1  // lista permanece igual
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img23.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img23.svg', alt='')   
       .row(titulo="h) Retornos incorrectos en funciones")
         p.mb-2 Otra falla lógica frecuente ocurre cuando una función no retorna el valor esperado o no retorna nada. En estos casos, el código puede seguir ejecutándose, pero las operaciones que dependen del resultado fallan.
         p.mb-2 #[b Ejemplo:]
@@ -527,7 +527,7 @@
               p.text-white.mb-1  console.log(sumar(2, 3)); // 5
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img24.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img24.svg', alt='')   
       .row(titulo="i) Uso incorrecto de condiciones compuestas")
         p.mb-2 Las condiciones compuestas con && y || pueden causar errores lógicos cuando no se agrupan correctamente o cuando se interpretan mal las prioridades de evaluación. Esto ocurre con frecuencia en validaciones complejas.
         p.mb-2 #[b Ejemplo:]
@@ -550,7 +550,7 @@
               p.text-white.mb-1  }
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img25.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img25.svg', alt='')   
       .row(titulo="j) Confusión entre incremento previo y posterior")
         p.mb-2 El uso de ++ antes o después de una variable puede cambiar el resultado de una expresión. Esta diferencia puede parecer pequeña, pero en ciclos, asignaciones y cálculos produce errores lógicos.
         p.mb-2 #[b Ejemplo:]
@@ -571,7 +571,7 @@
               p.text-white.mb-1  console.log(b); // 6
           .col-lg-2.d-none.d-lg-block
             figure
-              img(src='@/assets/curso/temas/tema5/img26.svg', alt='Texto que describa la imagen')   
+              img(src='@/assets/curso/temas/tema5/img26.svg', alt='')   
 
     separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -580,13 +580,13 @@
       .row.justify-content-center.align-items-center.mb-4
         .col-lg-1.d-none.d-lg-block
           figure
-            img(src='@/assets/curso/temas/tema5/img27.svg', alt='Texto que describa la imagen')           
+            img(src='@/assets/curso/temas/tema5/img27.svg', alt='')           
         .col-lg-11    
           p.mb-0 Para entender estos errores, se presentan dos situaciones comunes en las que el manejo de errores resulta esencial para evitar fallos en la ejecución del programa: el control de operaciones matemáticas inválidas y la gestión de datos incorrectos provenientes de fuentes externas. Estos ejemplos muestran cómo el uso de try...catch permite anticipar errores y mantener la estabilidad de la aplicación:    
       .titulo.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+        img(src='@/assets/curso/icon.svg', alt='')
         h5 a) Manejo de la división por cero
-      p.mb-4 A continuación, se tiene una función que divide un número entre otro. Para ello, se pasa parámetros a la función para ambos números. Deseando asegurarnos de que la división nunca genere un error al dividir un número entre cero (0).
+      p.mb-4 A continuación, se tiene una función que divide un número entre otro. Para ello, se pasan parámetros a la función para ambos números. Deseando asegurarnos de que la división nunca genere un error al dividir un número entre cero (0).
       p.mb-4 Como medida preventiva, se ha escrito una condición que, si el divisor es cero, generará un error indicando que la división por cero no está permitida. En cualquier otro caso, se procederá con la división. Si se produce un error, el bloque catch lo gestionará y realizará las acciones necesarias (en este caso, registrar el error en la consola):            
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
@@ -622,9 +622,9 @@
           p.mb-0.text-white  Producción:
       .col-lg-3
         figure
-          img(src="@/assets/curso/temas/tema5/img28.png", alt="alt").img400.m-auto   
+          img(src="@/assets/curso/temas/tema5/img28.png", alt="").img400.m-auto   
     .titulo.mb-4(data-aos="fade-left")
-      img(src='@/assets/curso/icon.svg', alt='Imagen decorativa')
+      img(src='@/assets/curso/icon.svg', alt='')
       h5 b) Error matemático
     p.mb-4 A menudo, se recibirá JSON como respuesta a una llamada a la API. Se necesita analizar este JSON en el código JavaScript para extraer los valores. ¿Qué ocurre si la API te envía un JSON mal formado por error? No puede permitirse que la interfaz de usuario falle por esto. Se debe gestionar correctamente y aquí es donde el bloque try…catch vuelve a ser la salvación:
     .row.justify-content-center.align-items-center
