@@ -562,7 +562,7 @@
             p.mb-0.text-white const suma = (a, b) => a + b;
       .col-lg-4.mb-3
         .cajon.c01.p-4.h-100
-          p.mb-3 #[b Ámbito (#[i Scope]) de las funciones]
+          p.mb-3 #[b Ámbito (#[i scope]) de las funciones]
           p.mb-0 El #[i scope] define el alcance de las variables dentro de una función.
           p.mb-0 #[b Ejemplo: ]
           .tarjeta--fondo4.p-2
